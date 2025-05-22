@@ -30,7 +30,7 @@ $data = fetchApiData(API_URL);
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Próxima Película de Marvel</title>
+    <title>Próxima Película de Marvel</title> --ftp_alloc
     <meta name="description" content="Próxima película de MARVEL">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
@@ -95,6 +95,7 @@ $data = fetchApiData(API_URL);
             <h3><?= htmlspecialchars($data["title"]) ?> ... SE ESTRENA EN: <?= htmlspecialchars($data["days_until"]) ?> DIAS!!!</h3>
             <p>Fecha de Estreno: <?= htmlspecialchars($data["release_date"]) ?></p>
             <p>Lo Podrás ver por: <?= htmlspecialchars($data["type"]) ?></p>
+            <p>ATTE. PERCY BELTRAN </p>
         </hgroup>
     </main>
 </body>

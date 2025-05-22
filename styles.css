@@ -1,0 +1,23 @@
+:root {
+    color-scheme: light dark;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 1rem;
+    color: blue; /* Texto del cuerpo en color azul */
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+
+hgroup {
+    text-align: center;
+    margin-top: 1rem;
+}
